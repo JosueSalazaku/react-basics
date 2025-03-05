@@ -6,8 +6,8 @@ function Calculator() {
     const [currentInput, setcurrentInput] = useState<string>("0");
     const [result, setResult] = useState<string>("")
 
-    const handleCurrentInput = (event: React.MouseEvent<HTMLButtonElement>) => {
-    }
+    // const handleCurrentInput = (event: React.MouseEvent<HTMLButtonElement>) => {
+    // }
 
 
   return (
