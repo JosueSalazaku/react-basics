@@ -1,15 +1,11 @@
-import React from "react";
 interface ButtonProps {
   value: string;
-  onClick: (value: string) => void;
+    onClick: (value: string) => void;
+    className: string
 }
 
 function Buttons({ value, onClick }: ButtonProps) {
-  return (
-    <div className="flex flex-wrap">
-      <button onClick={() => onClick(value)}>{value}</button>
-    </div>
-  );
+  return <button onClick={() => onClick(value)}>{value}</button>;
 }
 
 export default Buttons;
